@@ -1,0 +1,1 @@
+The results in both files are listed in the Analysis folder while the scripts for each are in their named folder. For PyBank, this was basic financial analysis that I found similar to the VBA excercises. For Pypoll, I found this interesting and used a lot of concepts we have learned in more recent classes. Diana was the winner by a substantial margin. 
