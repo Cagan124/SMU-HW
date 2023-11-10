@@ -1,0 +1,1 @@
+My code is listed under the Starter_Code folder and I used the starter code as an outline. I also referenced multiple week 5 in class assignments for this challenge and included a link to Seaborn for my boxplot reference. 
