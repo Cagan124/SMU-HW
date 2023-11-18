@@ -1,0 +1,1 @@
+I refered to week 6 in class assignment for reference on this challenge. I also used the links included in the code for weather data and API information. I used a .gitignore to exclude my API from the repository.
