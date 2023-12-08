@@ -1,0 +1,1 @@
+For this Module 9 assignment I created queries using SQL in pgAdmin. The data is included in the data folder and I also created a new folder to include my outputs. QuickDBD was used to create my ERD. I attached photos of the final results in QuickDBD and also a txtfile.

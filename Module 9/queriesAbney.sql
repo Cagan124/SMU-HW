@@ -32,14 +32,16 @@ from dept_manager as dm
 	join employees as e on dm.emp_no = e.emp_no;
 
  -- List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
--- select 
--- 	e.first_name,
--- 	e.last_name,
--- 	d.dept_name,
--- 	de.dept_no,
--- 	e.emp_no
--- from employees as e 
--- 	join dept_emp as de on de.dept_no = e.emp_no;
+select 
+	e.first_name,
+	e.last_name,
+	d.dept_name,
+	de.dept_no,
+	e.emp_no
+from employees as e 
+	join dept_emp as de on e.emp_no = de.emp_no
+	join departments as d on de.dept_no = d.dept_no;
+
 
 --List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
 select
