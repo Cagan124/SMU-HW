@@ -1,0 +1,1 @@
+For this assignment, I added NoSQL queries to the notebook to reflect in MongoDB. I found the in class assignments very helpful for this project and often referred to activities: 12.3.1, 12.2.6 and 12.1.5. After a few activities, I found the MongoDB syntax much easier to understand.
