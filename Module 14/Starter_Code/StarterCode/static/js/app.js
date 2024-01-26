@@ -60,25 +60,27 @@ function makeBubble(human_data) {
 
 
     let trace1= {
-        x: [otuIDs],
-        y: [sampleValues],
+        x: otuIDs,
+        y: sampleValues,
         mode: 'markers',
         marker: {
-            size: [sampleValues],
-            color: ['rgb(255, 65, 54)'],
+            size: sampleValues,
+            color: otuIDs,
             opacity: [1]
         },
         text: otuLabels
     }
 
-    let traces2 = [trace1];
+    let trace2 = [trace1];
 
     let layout = {
-        title: "Belly Button Data",
+        title: "OTUs",
+        xaxis: {title: "OTU IDs"},
+        yaxis: {title: "Number of Observed"},
         showlegend: false,
         height: 600,
-        width: 600
+        width: 1200
     };
-    Plotly.newPlot('bubble', traces2, layout)
+    Plotly.newPlot('bubble', trace2, layout)
 };
 
