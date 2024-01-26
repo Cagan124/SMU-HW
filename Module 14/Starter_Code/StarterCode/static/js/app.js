@@ -45,11 +45,6 @@ function makeBar(human_data) {
     Plotly.newPlot("bar", traces, layout);
 }
 
-function optionChanged(human) {
-    let human_data = global_data.samples.filter(row => row.id === human)[0];
-    console.log(human_data)
-}
-
 // create bubble chart
 
 function makeBubble(human_data) {
@@ -83,4 +78,11 @@ function makeBubble(human_data) {
     };
     Plotly.newPlot('bubble', trace2, layout)
 };
+// add in function to change charts based on data
+function optionChanged(human) {
+    let human_data = global_data.samples.filter(row => row.id === human)[0];
+    console.log(human_data)
 
+    makeBar(human_data);
+    makeBubble(human_data);
+}
