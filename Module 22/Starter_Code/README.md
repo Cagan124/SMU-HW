@@ -1,0 +1,1 @@
+In this assignment, I used spark to run SQL queries while testing caching and partitioning. I used Google Colab for this assignment and referred to class activities 22-3-5 and 22-3-3 for assistance with caching and partitioning.
